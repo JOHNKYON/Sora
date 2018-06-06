@@ -4,6 +4,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import os
+
 from sklearn import tree
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
@@ -12,9 +14,14 @@ import pandas as pd
 
 
 def get_tree_regressor():
-    """Build the decision tree model trained on provided dataset in "models_demo/data"""""
+    """
+    Build the decision tree model trained on provided dataset in "models_demo/data
+    :return: model (sklearn.tree.DecisionTreeRegressor)
+    """""
 
-    melb_data = pd.read_csv('models_demo/data/melb_data.csv')
+    path = os.path.abspath('..')
+
+    melb_data = pd.read_csv(path+'/models_demo/data/melb_data.csv')
 
     melb_target = melb_data.Price
     melb_predictors = melb_data.drop(['Price'], axis=1)
