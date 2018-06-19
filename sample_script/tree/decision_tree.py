@@ -15,7 +15,7 @@ def get_decision_tree(data):
     """
     x_train, x_test, y_train, y_test = data
 
-    model = tree.DecisionTreeRegressor()
+    model = tree.DecisionTreeRegressor(max_depth=2)
     model.fit(x_train, y_train)
     preds = model.predict(x_test)
 
