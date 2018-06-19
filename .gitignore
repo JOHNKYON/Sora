@@ -1,8 +1,9 @@
 # Manual added part
 Pipfile
 Pipfile.lock
-
-
+*.csv
+*.dot
+*.png
 
 ############################################
 # General
