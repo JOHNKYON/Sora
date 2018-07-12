@@ -26,4 +26,5 @@ Visualization toolkit for ML and DL methods
 1. Clone or download this repository and go into the root of the toolkit.
 2. Run ```$ python sample_script.tree.decision_tree_sample.py```
 
-Then you are likely to see a ```shap.png``` in the pwd. The picture is a bar figure and should look like ![](shap.png)
+Then you are likely to see a ```shap.png``` in the pwd. The picture is a bar figure and should look like 
+![](http://imglf3.nosdn0.126.net/img/UFZ3T1ZWbXcvWlRvLzd5elliNUpTQ1dBZlcyeFNZcy9ubjF2NlZ5cVZRQzkyUmdxUWErZEdRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
